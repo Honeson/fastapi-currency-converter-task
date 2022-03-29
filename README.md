@@ -20,11 +20,13 @@ The Secret key needed to be able to connect to the API provider is in `.example_
 To install the dependencies required to run this program, first create a virtual environment using venv. This should be done in same folder as where you cloned the repo into. Then with python and venv already installed, run `python -m venv venv`. This will create a virtual environment called venv for you.
 
 #### Activate Environment
-Next, activate the virtual environment by running, `venv\scripts\activate` (for windows users).
+Next, activate the virtual environment by running, `venv\Scripts\activate` (for windows users).
 
 #### Install Dependencies
 While still in the activated environment, run `pip install -r requirements.txt`. This will install all required dependencies for the program to run.
 
+#### Run the program
+On your terminal with the virtual environment still activated, run `python converter.py` to run the program.
 Once the program is up and running, navigate to: `http://127.0.0.1:8700` on your browser to see the program in action.
 
 #### Test the converter
